@@ -1,8 +1,26 @@
 # Talks
 
-## 2015
+## Creating a new deck
 
-- [How callbacks in JavaScript work](https://speakerdeck.com/jsstrn/how-callbacks-in-javascript-really-work) @ [SingaporeJS][1] - 15 December 2015
+Create a new deck with Reveal.js
 
+```
+git clone https://github.com/hakimel/reveal.js.git <my-presentation>
+```
 
-[1]: http://www.meetup.com/Singapore-JS/
+Then remove the git directory
+
+```
+rm -rf .git
+```
+
+## Past talks
+
+- [How callbacks in JavaScript really work](how-callbacks-in-javascript-really-work) @ [talk.js][talk.js] - 15 December 2015
+- [Recording talks at ThoughtWorks][recording-talks-at-thoughtworks] @ ThoughtWorks - 28 September 2017
+
+[how-callbacks-in-javascript-really-work]: https://speakerdeck.com/jsstrn/how-callbacks-in-javascript-really-work
+
+[recording-talks-at-thoughtworks]: https://jsstrn.github.io/recording-talks-at-thoughtworks
+
+[talk.js]: http://www.meetup.com/Singapore-JS/
