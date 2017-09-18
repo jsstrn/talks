@@ -16,11 +16,10 @@ rm -rf .git
 
 ## Past talks
 
-- [How callbacks in JavaScript really work](how-callbacks-in-javascript-really-work) @ [talk.js][talk.js] - 15 December 2015
+- [How callbacks in JavaScript really work][how-callbacks-work] @ [talk.js][talk.js] - 15 December 2015
 - [Recording talks at ThoughtWorks][recording-talks-at-thoughtworks] @ ThoughtWorks - 28 September 2017
 
-[how-callbacks-in-javascript-really-work]: https://speakerdeck.com/jsstrn/how-callbacks-in-javascript-really-work
-
-[recording-talks-at-thoughtworks]: https://jsstrn.github.io/recording-talks-at-thoughtworks
-
+<!-- reference links -->
+[how-callbacks-work]: https://speakerdeck.com/jsstrn/how-callbacks-in-javascript-really-work
+[recording-talks-at-thoughtworks]: https://jsstrn.github.io/talks/recording-talks-at-thoughtworks
 [talk.js]: http://www.meetup.com/Singapore-JS/
