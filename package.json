@@ -1,0 +1,28 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "description": "## Creating a new deck",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:watch",
+    "build": "marp --input-dir src --output topics",
+    "build:watch": "watch 'npm run build' src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsstrn/talks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsstrn/talks/issues"
+  },
+  "homepage": "https://github.com/jsstrn/talks#readme",
+  "dependencies": {
+    "@marp-team/marp-cli": "^0.20.0"
+  },
+  "devDependencies": {
+    "watch": "^1.0.2"
+  }
+}
