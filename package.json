@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build:watch",
-    "build": "marp --input-dir src --output topics",
+    "build": "marp --input-dir src --output talks",
     "build:watch": "watch 'npm run build' src/"
   },
   "repository": {
