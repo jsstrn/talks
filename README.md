@@ -1,5 +1,3 @@
-# Talks
-
 ## Content
 
 - [Data structures](talks/data-structures.html)
