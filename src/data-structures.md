@@ -7,9 +7,40 @@ header: "Data structures"
 footer: "© Jesstern Rays"
 ---
 
-# Data structures
+# Data structures and algorithms
 
 Jesstern Rays, Software Engineer @ ThoughtWorks
+
+---
+
+# Write a program to find a number in an unsorted list?
+
+In an unsorted list, you must search through every single element in the list.
+
+---
+
+# Linear search
+
+---
+
+# Write a program to find a number in a sorted list?
+
+In a sorted list, you can optimize your program and reduce the number of operations it makes.
+
+---
+
+# Binary search
+
+Locate the middle element and ask one of three questions
+
+1. Does this element match the one you're looking for?
+1. If yes, then you've found the element. Job done!
+1. If no, is the number you're looking for higher or lower?
+1. Rinse and repeat
+
+---
+
+# Analyzing algorithms
 
 ---
 
@@ -40,6 +71,8 @@ class LinkedList {
 }
 ```
 
+[Solution](https://github.com/jsstrn/dsa/blob/master/data-structures/linked-list/linkedList.js)
+
 ---
 
 # Queues
@@ -50,9 +83,33 @@ class LinkedList {
 
 ---
 
+# Question
+
+Q: Should we implement it using an array or a linked-list? Why?
+
+---
+
+# Comparing operations between linked-list and array
+
+| Operation        | Linked-list | Array |
+| ---------------- | ----------- | ----- |
+| Enqueue (insert) | O(1)        | O(n)  |
+| Dequeue (delete) | O(1)        | O(n)  |
+
+---
+
 # Implementing queue
 
-Q: Should we implement it using an array or a linked-list?
+```js
+class Queue extends LinkedList {
+  constructor() {
+    super();
+    // your code here
+  }
+}
+```
+
+[Solution](https://github.com/jsstrn/dsa/blob/master/data-structures/queue/queue.js)
 
 ---
 
@@ -64,6 +121,30 @@ Q: Should we implement it using an array or a linked-list?
 
 ---
 
+# Question
+
+Q: Should we implement it using an array or a linked-list? Why?
+
+---
+
+# Comparing operations between linked-list and array
+
+| Operation     | Linked-list | Array |
+| ------------- | ----------- | ----- |
+| Push (insert) | O(1)        | O(n)  |
+| Pop (delete)  | O(1)        | O(n)  |
+
+---
+
 # Implementing stack
 
-Q: Should we implement it using an array or a linked-list?
+```js
+class Stack extends LinkedList {
+  constructor() {
+    super();
+    // your code here
+  }
+}
+```
+
+[Solution](https://github.com/jsstrn/dsa/blob/master/data-structures/stack/stack.js)
