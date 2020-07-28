@@ -1,6 +1,6 @@
 ## Content
 
-- [Data structures](talks/data-structures.html)
+- [Data structures](talks/algorithms.html)
 
 - [How callbacks in JavaScript really work][how-callbacks-work] @ [talk.js][talk.js] - 15 December 2015
 
